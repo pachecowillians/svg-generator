@@ -2,8 +2,6 @@
 
 This project is an SVG avatar icon generator. It generates icons for all the letters and saves them with the name letter.svg.
 
-The generated icons are shown below:
-
 ![A.svg](./img/A.svg) &nbsp;
 ![B.svg](./img/B.svg) &nbsp;
 ![C.svg](./img/C.svg) &nbsp;
