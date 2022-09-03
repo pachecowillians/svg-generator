@@ -1,5 +1,6 @@
 import cairo
 import math
+import numpy
 
 for c in range(ord('A'), ord('Z') + 1):
 
@@ -10,11 +11,12 @@ for c in range(ord('A'), ord('Z') + 1):
         w = h = 700
 
         s = chr(c)
-        
-
+    
         context.arc(350, 350, 350, 0, 2*math.pi)
 
-        context.set_source_rgba(40/255, 42/255, 54/255, 1)
+        color = list(numpy.random.choice(range(256), size=3))
+
+        context.set_source_rgba(color[0]/255, color[1]/255, color[2]/255, 1)
 
         context.fill()
 
