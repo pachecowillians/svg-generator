@@ -1,7 +1,7 @@
 import cairo
 import numpy
 
-sizes = [(250, 250), (468, 60), (970, 250), (970, 90)]
+sizes = [(250, 250), (120, 240), (468, 60), (970, 250), (970, 90)]
 
 for size in sizes:
 
@@ -32,7 +32,7 @@ for size in sizes:
 
         factor = 0.3
 
-        while width > max(w, h) * 0.7:
+        while width > min(w, h) * 0.9:
             factor -= 0.1
             context.set_font_size((min(w, h))*factor)
             (x, y, width, height, dx, dy) = context.text_extents(s)
