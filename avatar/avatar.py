@@ -18,8 +18,8 @@ with cairo.SVGSurface("avatar/geek.svg", 700, 700) as surface:
     context.set_source_rgb(255/255, 255/255, 255/255)
 
     context.select_font_face(
-        "Courier", cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_NORMAL)
-    context.set_font_size(w*0.9)
+        "Inter", cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_NORMAL)
+    context.set_font_size(w*0.6)
     (x, y, width, height, dx, dy) = context.text_extents(s)
 
     print(x, y, width, height, dx, dy)
