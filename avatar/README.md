@@ -1,30 +1,30 @@
 # Avatar Generator
 
-![A.svg](./img/A.svg)
-![B.svg](./img/B.svg)
-![C.svg](./img/C.svg)
-![D.svg](./img/D.svg)
-![E.svg](./img/E.svg)
-![F.svg](./img/F.svg)
-![G.svg](./img/G.svg)
-![H.svg](./img/H.svg)
-![I.svg](./img/I.svg)
-![J.svg](./img/J.svg)
-![K.svg](./img/K.svg)
-![L.svg](./img/L.svg)
-![M.svg](./img/M.svg)
-![N.svg](./img/N.svg)
-![O.svg](./img/O.svg)
-![P.svg](./img/P.svg)
-![Q.svg](./img/Q.svg)
-![R.svg](./img/R.svg)
-![S.svg](./img/S.svg)
-![T.svg](./img/T.svg)
-![U.svg](./img/U.svg)
-![V.svg](./img/V.svg)
-![W.svg](./img/W.svg)
-![X.svg](./img/X.svg)
-![Y.svg](./img/Y.svg)
-![Z.svg](./img/Z.svg)
+![A.svg](./img/A.svg) &nbsp;
+![B.svg](./img/B.svg) &nbsp;
+![C.svg](./img/C.svg) &nbsp;
+![D.svg](./img/D.svg) &nbsp;
+![E.svg](./img/E.svg) &nbsp;
+![F.svg](./img/F.svg) &nbsp;
+![G.svg](./img/G.svg) &nbsp;
+![H.svg](./img/H.svg) &nbsp;
+![I.svg](./img/I.svg) &nbsp;
+![J.svg](./img/J.svg) &nbsp;
+![K.svg](./img/K.svg) &nbsp;
+![L.svg](./img/L.svg) &nbsp;
+![M.svg](./img/M.svg) &nbsp;
+![N.svg](./img/N.svg) &nbsp;
+![O.svg](./img/O.svg) &nbsp;
+![P.svg](./img/P.svg) &nbsp;
+![Q.svg](./img/Q.svg) &nbsp;
+![R.svg](./img/R.svg) &nbsp;
+![S.svg](./img/S.svg) &nbsp;
+![T.svg](./img/T.svg) &nbsp;
+![U.svg](./img/U.svg) &nbsp;
+![V.svg](./img/V.svg) &nbsp;
+![W.svg](./img/W.svg) &nbsp;
+![X.svg](./img/X.svg) &nbsp;
+![Y.svg](./img/Y.svg) &nbsp;
+![Z.svg](./img/Z.svg) &nbsp;
 
-This project is an SVG avatar icon generator. It generates icons for all letters and saves them as letter.svg
+This project is an SVG avatar icon generator. It generates icons for all the letters and saves them with the name letter.svg
