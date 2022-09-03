@@ -1,6 +1,8 @@
 # Banner Generator
 
-This project is an SVG banner generator. It generates banners for different sizes and saves them with the name size.svg.
+This project is an SVG banner generator. It generates banners of different sizes and random colors and saves them with the name size.svg.
+
+To define the size of the banner that will be generated, just define it as a tuple in the size list.
 
 ![250x250.svg](./img/250x250.svg)
 ![250x250.svg](./img/120x240.svg)
