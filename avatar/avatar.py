@@ -4,15 +4,15 @@ import numpy
 
 for c in range(ord('A'), ord('Z') + 1):
 
-    with cairo.SVGSurface("avatar/img/{}.svg".format(chr(c)), 700, 700) as surface:
+    with cairo.SVGSurface("avatar/img/{}.svg".format(chr(c)), 48, 48) as surface:
 
         context = cairo.Context(surface)
 
-        w = h = 700
+        w = h = 48
 
         s = chr(c)
     
-        context.arc(350, 350, 350, 0, 2*math.pi)
+        context.arc(w/2, h/2, w/2, 0, 2*math.pi)
 
         color = list(numpy.random.choice(range(256), size=3))
 
