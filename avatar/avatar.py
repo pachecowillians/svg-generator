@@ -28,4 +28,4 @@ for c in range(ord('A'), ord('Z') + 1):
         context.show_text(s[0])
 
 
-    print("File Saved")
+    print("File {}.svg Saved".format(s))
