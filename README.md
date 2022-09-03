@@ -31,7 +31,6 @@
 ![250x250.svg](./banner/img/120x240.svg)
 ![250x250.svg](./banner/img/468x60.svg)
 
-<br/>
 
 # SVG Generator
 
