@@ -18,14 +18,10 @@ for c in range(ord('A'), ord('Z') + 1):
 
         context.fill()
 
-        context.set_source_rgb(255/255, 255/255, 255/255)
-
         context.select_font_face(
             "Inter", cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_NORMAL)
         context.set_font_size(w*0.6)
         (x, y, width, height, dx, dy) = context.text_extents(s[0])
-
-        print(x, y, width, height, dx, dy)
 
         context.set_source_rgb(255/255, 255/255, 255/255)
         context.move_to(w/2 - width/2 - x, h/2 + height/2)
