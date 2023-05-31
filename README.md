@@ -34,50 +34,52 @@
 
 # SVG Generator
 
-<br/>
+<p align="center">
+  <a href="https://www.docker.com/"><img src="https://raw.githubusercontent.com/pachecowillians/svg-icons/0ca246100b279696cc5b393452ad2aa8758de59a/img/svg.svg" alt="Docker" height="100px"></a>
+</p>
 
-This project is a set of projects that generate svg images that serve a specific purpose. Until then, the present projects are an avatar generator and a banner generator.
+This project is a collection of tools that generate SVG images for specific purposes. Currently, the available tools are an avatar generator and a banner generator.
 
-All these images are generated with a random background color and are built using the Pycairo library.
+All the generated images have a random background color and are built using the Pycairo library.
 
-To install this library, run the following command:
+To install the Pycairo library, run the following command:
 
 ```sh
 pip install pycairo
 ```
 
-With Pycairo installed, just run the projects and the avatars and banners will be generated in the respective img folders of each project.
+Once Pycairo is installed, you can run the individual projects to generate avatars and banners. The generated images will be saved in the respective `img` folders of each project.
 
-## Running the projects
+## Running the Projects
 
-Initially clone the repository with ``git clone``
+Start by cloning the repository using `git clone`:
 
 ```sh
 git clone https://github.com/pachecowillians/svg-generator.git
 ```
 
-After cloning the repository, enter the project folder with ```cd```
+After cloning the repository, navigate to the project folder using `cd`:
 
 ```sh
 cd svg-generator
 ```
 
-### Generating avatars
+### Generating Avatars
 
-To generate the avatars, just run the .py file present in the ```./avatar/``` folder
+To generate avatars, run the Python file located in the `avatar/` folder:
 
 ```sh
 python3 avatar/avatar.py
 ```
 
-After running the above command, the avatars will be generated in the ```./avatar/img/``` folder
+Running the above command will generate avatars and save them in the `avatar/img/` folder.
 
-### Generating banners
+### Generating Banners
 
-To generate the banners, just run the .py file present in the ```./banner/``` folder
+To generate banners, run the Python file located in the `banner/` folder:
 
 ```sh
 python3 banner/banner.py
 ```
 
-After running the above command, the banners will be generated in the ```./banner/img/``` folder
+Running the above command will generate banners and save them in the `banner/img/` folder.
